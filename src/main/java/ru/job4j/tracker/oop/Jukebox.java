@@ -1,6 +1,4 @@
-package ru.job4j.tracker;
-
-import ru.job4j.tracker.oop.Student;
+package ru.job4j.tracker.oop;
 
 public class Jukebox {
     public void music(int position) {
