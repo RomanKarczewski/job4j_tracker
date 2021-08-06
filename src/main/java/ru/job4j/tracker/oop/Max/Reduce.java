@@ -3,8 +3,8 @@ package ru.job4j.tracker.oop.Max;
 public class Reduce {
     private int[] array;
 
-    public void to(int[] aray) {
-        array = aray;
+    public void to(int[] array) {
+        this.array = array;
     }
 
     public void print() {
