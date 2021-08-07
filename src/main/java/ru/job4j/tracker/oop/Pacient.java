@@ -10,6 +10,6 @@ public class Pacient {
         this.name = "";
         this.surname = "";
         this.birthday = "";
-        this diagnosis = "";
+        this.diagnosis = "";
     }
 }
