@@ -1,10 +1,12 @@
 package ru.job4j.tracker.oop;
 
-import java.time.LocalDate;
-
 public class Doctor extends Profession {
 
-    public Doctor () {
+    private String certificate;
+
+    public Doctor(String name, String surname, String education, String birthday, String certificate) {
+        super(name, surname, education, birthday);
+        this.certificate = certificate;
     }
 
     public static String diagnosisHeal(Pacient pacient) {
