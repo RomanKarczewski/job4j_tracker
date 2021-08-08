@@ -1,10 +1,10 @@
 package ru.job4j.tracker.oop;
 
 public class Pacient {
+    public String diagnosis;
     private String name;
     private String surname;
     private String birthday;
-    private String diagnosis;
 
     public Pacient (){
         this.name = "";

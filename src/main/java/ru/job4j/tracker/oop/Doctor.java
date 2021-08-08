@@ -1,14 +1,18 @@
 package ru.job4j.tracker.oop;
 
+import java.time.LocalDate;
+
 public class Doctor extends Profession {
-    private String diagnosis;
 
     public Doctor () {
     }
 
-    Pacient Vaso = new Pacient();
-    
-    public String diagnosisHeal(Pacient pacient) {
-        return this.diagnosis;
+    public static String diagnosisHeal(Pacient pacient) {
+        return pacient.diagnosis;
+    }
+
+    public static void main(String[] args) {
+        Pacient Vaso = new Pacient ();
+        System.out.println(diagnosisHeal(Vaso));
     }
 }
